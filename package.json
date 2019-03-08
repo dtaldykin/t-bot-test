@@ -1,0 +1,21 @@
+{
+  "name": "is-this-the-end",
+  "version": "1.0.0",
+  "description": "Is this the end bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "Dmytro Taldykin",
+  "license": "WTFPL",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}

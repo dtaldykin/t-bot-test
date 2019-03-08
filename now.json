@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "name": "t-bot",
+    "env": {
+        "T_TOKEN": "@t-bot-token"
+    },
+    "builds": [{
+        "src": "index.js",
+        "use": "@now/node"
+    }],
+    "routes": [{
+        "src": "/(.*)",
+        "dest": "index.js"
+    }]
+}
